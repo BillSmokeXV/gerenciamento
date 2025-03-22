@@ -22,7 +22,7 @@ function Navbar() {
   return (
     <nav className="navbar fixed-top navbar-expand-md navbar-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/home">
           <img src="/Images/roberto.jpg" alt="" width="120" height="80" />
         </a>
 
