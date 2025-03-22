@@ -1,0 +1,14 @@
+.icone-acao {
+    font-size: 18px; /* Ajuste o tamanho do ícone */
+    padding: 5px;
+    color: #007bff; /* Cor do ícone */
+    cursor: pointer; /* Para o ícone se comportar como botão */
+}
+
+.icone-acao:hover {
+    color: #ff0000; /* Cor ao passar o mouse em cima do ícone */
+}
+
+.red {
+    color: red; /* Para o ícone de excluir */
+}
