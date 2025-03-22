@@ -9,7 +9,7 @@ function Banner(){
                     <h1>Um Gerenciador de Atendimento fácil de configurar e usar.</h1>
                     <h4>Gerencie seus Atendimentos em um único lugar.</h4>
                     <a href="/app/novaconta" className="btn btn-dark btn-lg btn-banner">Criar uma conta</a>
-                    <a href="/app/login" className="btn btn-outline-light btn-lg btn-banner">Fazer Login</a>
+                    <a href="/login" className="btn btn-outline-light btn-lg btn-banner">Fazer Login</a>
                  </div>
 
                  <div className="col-lg-6">
