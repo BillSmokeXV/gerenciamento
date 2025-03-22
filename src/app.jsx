@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Site from './site/site.jsx';
 import Login from './app/Login/login.jsx';
@@ -13,7 +13,7 @@ import RotaPrivada from './app/Context/RotaPrivada.jsx';
 function App() {
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 
                 <Route path="/" element={<Site />} />
@@ -25,7 +25,7 @@ function App() {
                 <Route path="/app/novocliente"element={<RotaPrivada><NovoCliente /></RotaPrivada>} />
                 <Route path="/app/editarcliente/:id" element={<RotaPrivada><EditarCliente /></RotaPrivada>} />
             </Routes>
-            </BrowserRouter>
+            </HashRouter>
     );
 }
 
